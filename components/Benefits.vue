@@ -5,17 +5,17 @@
                 {{ t('about_us_in_digits') }}
             </h2>
             <div class="benefits__element">
-                <img class="benefits__icon" src="img/projects.svg" :alt="t('orders_done')">
+                <img class="benefits__icon" src="/img/projects.svg" :alt="t('orders_done')">
                 <p class="benefits__number" data-max="1500" id="zamovlen">0</p>
                 <p class="benefits__title">{{ t('orders_done') }}</p>
             </div>
             <div class="benefits__element">
-                <img class="benefits__icon" src="img/calendar.svg" :alt="t('calls_everyday') ">
+                <img class="benefits__icon" src="/img/calendar.svg" :alt="t('calls_everyday') ">
                 <p class="benefits__number" id="vuklukiv" data-max="5">0</p>
                 <p class="benefits__title">{{ t('calls_everyday') }}</p>
             </div>
             <div class="benefits__element">
-                <img class="benefits__icon" src="img/workers.svg" :alt="t('years_of_work')">
+                <img class="benefits__icon" src="/img/workers.svg" :alt="t('years_of_work')">
                 <p class="benefits__number" id="rokivrobotu" data-max="5">0</p>
                 <p class="benefits__title">{{ t('years_of_work') }}</p>
             </div>

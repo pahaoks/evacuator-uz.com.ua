@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-const { t, locale, locales } = useI18n()
+const { t, locale, locales, baseUrl } = useI18n()
 
 let iso = locales.value.find((l) => l.code === locale.value)?.iso
 let alternates = useAlternates()
@@ -32,6 +32,10 @@ useHead({
   meta: [
     { hid: 'description', name: 'description', content: t('description')},
     { hid: 'keywords', name: 'keywords', content: t('keywords')},
+    { name:'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1' },
+    { property: 'og:locale', content:iso},
+    { property:"og:type", content: "article"},
+    { property:"og:title", content:t('title')},
   ],
   link: [
     ...alternates,

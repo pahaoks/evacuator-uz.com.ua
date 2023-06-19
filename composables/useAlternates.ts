@@ -10,7 +10,7 @@ export default () => {
             alternatives.push({
                 rel: 'alternate',
                 hreflang: l.iso,
-                href: baseUrl.value + switchLocalePath(l.code),
+                href: baseUrl.value + switchLocalePath(l.code)+'/',
             })
         }
     }

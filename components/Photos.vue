@@ -37,7 +37,7 @@
               "
               >{{ t("250_hrn_hr") }}</span
             >
-            <br />{{ t("wrong_call") }}
+            <br />{{ wrongCall }}
             <span
               style="
                 color: #4e97cc;
@@ -158,7 +158,18 @@
 </template>
 
 <script setup>
-const { t } = useI18n();
+const { t, locale } = useI18n()
+const route = useRoute()
+const translateCity = useTranslateCity()
+const inCityPlaqceholder = "!!!in_city!!!"
+const cityPlaceholder = "!!!city!!!"
+
+const city = route.params.city 
+const localCity = city ? city : 'uzhhorod'
+
+const wrongCall = t('wrong_call')
+  .replace(inCityPlaqceholder, translateCity.t(locale.value, localCity, 1))
+  .replace(cityPlaceholder, translateCity.t(locale.value, localCity, 0))
 </script>
 
 <i18n lang="yaml">
@@ -170,7 +181,7 @@ ua:
   waiting: "Очікування (простій) евакуатора - "
   200_hrn: "200 грн"
   250_hrn_hr: "250 грн / година"
-  wrong_call: "Помилковий виклик по Ужгороду - "
+  wrong_call: "Помилковий виклик по !!!in_city!!! - "
   from_agreed_price: "від обумовленої ціни"
   tow_from_europe: "Вивіз авто з Європи/СНД - "
   price_agreeable: "ціна договірна"
@@ -185,7 +196,7 @@ ru:
   waiting: "Ожидание (простой) эвакуатора - "
   200_hrn: "200 грн"
   250_hrn_hr: "250 грн / час"
-  wrong_call: "Ложный вызов по Ужгороду - "
+  wrong_call: "Ложный вызов по !!!in_city!!! - "
   from_agreed_price: "от обусловленной цены"
   tow_from_europe: "Вывоз авто из Европы/СНГ - "
   price_agreeable: "цена договорная"
@@ -200,7 +211,7 @@ en:
   waiting: "Waiting (idle) - "
   200_hrn: "200 UAH"
   250_hrn_hr: "250 UAH / hour"
-  wrong_call: "Wrong call in Uzhgorod - "
+  wrong_call: "Wrong call in !!!in_city!!! - "
   from_agreed_price: "from the agreed price"
   tow_from_europe: "Export of cars from Europe/CIS - "
   price_agreeable: "price negotiable"

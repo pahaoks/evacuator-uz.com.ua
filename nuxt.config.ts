@@ -51,6 +51,7 @@ export default defineNuxtConfig({
             { code: 'ru', iso: 'ru-RU', name: 'Русский' }    
         ], 
         defaultLocale: 'ua', 
-        baseUrl: process.env.NODE_ENV === 'production' ? 'https://evacuator-uz.com.ua' : 'http://localhost:3000',
+        baseUrl: process.env.NODE_ENV === 'production' ? 
+            'https://evacuator-uz.com.ua' : 'http://localhost:3000',
     },
 })

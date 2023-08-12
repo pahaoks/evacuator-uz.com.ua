@@ -14,9 +14,9 @@
 		    </div>
         
 		    <div class="large-6 columns">
-			    <h1 style="margin-left: 10px;">{{ t('ask_help') }}</h1>
-			    <span style="margin-left: 10px;" class="subheading">
-                    {{ t('we_will_be_in_30_minutes') }}
+			    <h1 style="margin-left: 10px;" :class="{ 'heading--abroad': abroad }">{{ header }}</h1>
+			    <span style="margin-left: 10px;" class="subheading" :class="{ 'subheading--abroad': abroad }">
+                    {{ body }}
                 </span>
                 <div class="front_banner_right_but">
 					<a href="tel:+380981337627" class="but but_yellow">{{ t('call_tow_truck') }}</a>
@@ -27,31 +27,81 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
+const { t, locale } = useI18n()
+const route = useRoute()
+const translateCity = useTranslateCity()
+const translateCountry = useTranslateCountry()
+
+const city = route.params.city 
+const country = route.params.country
+const abroad = !!country && country !== 'ukraine'
+
+let header = t('ask_help')
+
+
+if (abroad) {
+    if (city) {
+        header = t('ask_help_in') + ' ' + translateCity.t(locale.value, city, 1) + '?'
+    } else if (country) {
+        header = t('ask_help_in') + ' ' + translateCountry.t(locale.value, country, 1) + '?'
+    }
+}
+
+let body = t('we_will_be_in_30_minutes')
+
+if (abroad) {
+    if (city) {
+        body = t('dont_worry') + ' ' + translateCity.t(locale.value, city, 2) + ' ' + t('as_soon_as_possible')
+    } else if (country) {
+        body = t('dont_worry') + ' ' + translateCountry.t(locale.value, country, 2) + ' ' + t('as_soon_as_possible')
+    }
+}
 
 onMounted(() => {
     $('.flexslider').flexslider();
 })
 </script>
 
+<style lang="sass">
+#header .heading--abroad 
+    font-size: 50px
+    line-height: 65px
+
+@media only screen and (max-width: 768px)
+    #header .heading--abroad 
+        line-height: 50px
+
+#header .subheading--abroad
+    font-size: 22px
+</style>
+
 <i18n lang="yaml">
 ua: 
+    dont_worry: Дзвоніть нам, ми прибудемо в
+    as_soon_as_possible: якнайшвидше, та допоможемо з транспортуванням вашого автомобіля в Україну, або будь-яку точку Європи
     our_tow_truck: Наш евакуатор
     ask_help: Потрібна допомога?
+    ask_help_in: Зламалась машина в
     we_will_be_in_30_minutes: Будемо через 30 хвилин! Всі види послуг евакуації автотранспорту та спецтехніки
     call_tow_truck: Викликати евакуатор
     our_tow_track: Наш евакуатор
 
 ru:
+    dont_worry: Звоните нам, мы приедем в
+    as_soon_as_possible: как можно скорее и поможем с транспортировкой вашего автомобиля в Украину, или другую точку Европы
     our_tow_truck: Наш эвакуатор
     ask_help: Нужна помощь?
+    ask_help_in: Сломалась машина в
     we_will_be_in_30_minutes: Будем через 30 минут! Все виды услуг эвакуации автотранспорта и спецтехники
     call_tow_truck: Вызвать эвакуатор
     our_tow_track: Наш эвакуатор
 
 en:
+    dont_worry: Call us, we will arrive in
+    as_soon_as_possible: as soon as possible, and will help you to tow your car to Ukraine, or any other location in Europe
     our_tow_truck: Our tow truck
     ask_help: Need help?
+    ask_help_in: Need help in
     we_will_be_in_30_minutes: We will be in 30 minutes! All types of evacuation services for vehicles and special equipment
     call_tow_truck: Call a tow truck
     our_tow_track: Our tow truck

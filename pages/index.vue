@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Menu/>
     <Header/>
     <NumberSaved/>
     <Call/>
@@ -15,7 +16,7 @@
 </template>
 
 <script setup>
-const { t, locale, locales, baseUrl } = useI18n()
+const { t, locale, locales } = useI18n()
 
 let iso = locales.value.find((l) => l.code === locale.value)?.iso
 let alternates = useAlternates()

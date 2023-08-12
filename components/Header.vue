@@ -2,7 +2,9 @@
   <div id="top" data-magellan-expedition="fixed">
     <div class="row">
       <div class="large-12 columns">
-        <nav class="top-bar">
+        <div class="top-bar">
+          <Burger v-model="menuOpened"></Burger>
+
           <ul class="title-area">
             <li class="name logo">
               <a style="font-size: 50px; line-height: 78px">
@@ -62,22 +64,24 @@
               <NuxtLink
                 v-for="l in locales"
                 :key="l.code"
-                :to="switchLocalePath(l.code)"
+                :to="switchLocalePath(l.code)+slash(l.code)"
                 class="lang-item"
               >
                 {{ l.code.toUpperCase() + "  " }}
               </NuxtLink>
             </div>
           </section>
-        </nav>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-const { locales } = useI18n();
-const switchLocalePath = useSwitchLocalePath();
+const { locales, defaultLocale } = useI18n()
+const menuOpened = useMenuOpened()
+const switchLocalePath = useSwitchLocalePath()
+const slash = (l) => l !== 'ua' ? '/' : ''
 </script>
 
 <style>

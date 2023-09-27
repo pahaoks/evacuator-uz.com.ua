@@ -17,13 +17,13 @@
                 <ul>
                     <li v-for="country in allCountries">
                         <NuxtLink :key="country" :to="path(locale, 'place', country)">
-                            {{ translateCountry.t(locale, country, 1) }}
+                            {{ translateCountry.t(locale, country, 3) }}
                         </NuxtLink>
 
                         <ul>
                             <li v-for="city in countriesCities[country]" :key="city">
                                 <NuxtLink :key="country" :to="path(locale, 'place', country, city)">
-                                    {{ translateCity.t(locale, city, 1) }}
+                                    {{ translateCity.t(locale, city, 3) }}
                                 </NuxtLink>
                             </li>
                         </ul>
@@ -87,13 +87,13 @@ const translateCity = useTranslateCity()
 ua:
     main_page: 'Головна'
     menu: 'Меню'
-    tow_truck_in: 'Евакуатор в'
+    tow_truck_in: 'Евакуатор з'
 ru:
     main_page: 'Главная'
     menu: 'Меню'
-    tow_truck_in: 'Эвакуатор в'
+    tow_truck_in: 'Эвакуатор из'
 en:
     main_page: 'Main'
     menu: 'Menu'
-    tow_truck_in: 'Tow truck in'
+    tow_truck_in: 'Tow truck from'
 </i18n>

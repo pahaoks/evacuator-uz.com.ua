@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /en$
+Disallow: /ru$
+Disallow: /_nuxt/
+
+Sitemap: https://evacuator-uz.com.ua/sitemap.xml

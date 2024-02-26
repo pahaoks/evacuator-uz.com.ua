@@ -3,7 +3,6 @@ export let Country = {
     Bulgaria: "bulgaria",
     Croatia: "croatia",
     Czech: "czech",
-    Germany: "germany",
     Hungary: "hungary",
     Italy: "italy",
     Romania: "romania",
@@ -16,7 +15,6 @@ export let allCountries = [
     Country.Bulgaria,
     Country.Croatia,
     Country.Czech,
-    Country.Germany,
     Country.Hungary,
     Country.Italy,
     Country.Romania,
@@ -25,7 +23,6 @@ export let allCountries = [
 ]
 
 export let City = {
-    Berlin: "berlin",
     Bratislava: "bratislava",
     Brno: "brno",
     Burgas: "burgas",
@@ -56,7 +53,6 @@ export const countriesCities = {
     [Country.Bulgaria]: [City.Burgas, City.Varna, City.Sofia],
     [Country.Croatia]: [City.Zagreb],
     [Country.Czech]: [City.Brno, City.Prague],
-    [Country.Germany]: [City.Berlin, City.Munich],
     [Country.Hungary]: [City.Budapest], 
     [Country.Italy]: [City.Roma, City.Milan],
     [Country.Romania]: [City.Buharest],
@@ -70,7 +66,6 @@ export const translateCountry = {
         [Country.Bulgaria]: ["Болгарія", "Болгарії","Болгарію","Болгарії"],
         [Country.Croatia]: ["Хорватія", "Хорватії","Хорватію","Хорватії"],
         [Country.Czech]: ["Чехія","Чехії","Чехію","Чехії"],
-        [Country.Germany]: ["Німеччина","Німеччині","Німеччину","Німеччини"],
         [Country.Hungary]: ["Угорщина","Угорщині","Угорщину","Угорщини"],
         [Country.Italy]: ["Італія","Італії","Італію","Італії"],
         [Country.Romania]: ["Румунія","Румунії","Румунію","Румунії"],
@@ -82,7 +77,6 @@ export const translateCountry = {
         [Country.Bulgaria]: ["Болгарія","Болгарии","Болгарию","Болгарии"],
         [Country.Croatia]: ["Хорватия","Хорватии","Хорватию","Хорватии"],
         [Country.Czech]: ["Чехия","Чехии","Чехию","Чехии"],
-        [Country.Germany]: ["Германия","Германии","Германию","Германии"],
         [Country.Hungary]: ["Венгрия","Венгрии","Венгрию","Венгрии"],
         [Country.Italy]: ["Италия","Италии","Италию","Италии"],
         [Country.Romania]: ["Румыния","Румынии","Румынию","Румынии"],
@@ -94,7 +88,6 @@ export const translateCountry = {
         [Country.Bulgaria]: ["Bulgaria","Bulgaria","Bulgaria","Bulgaria"],
         [Country.Croatia]: ["Croatia","Croatia","Croatia","Croatia"],
         [Country.Czech]: ["Czech Republic","Czech Republic","Czech Republic","Czech Republic"],
-        [Country.Germany]: ["Germany","Germany","Germany","Germany"],
         [Country.Hungary]: ["Hungary","Hungary","Hungary","Hungary"],
         [Country.Italy]: ["Italy","Italy","Italy","Italy"],
         [Country.Romania]: ["Romania","Romania","Romania","Romania"],
@@ -121,7 +114,6 @@ export const translateCountry = {
 // Кто? Где? Куда? Откуда?
 export const translateCity = {
     ua: {
-        [City.Berlin]: ["Берлін","Берліні","Берлін","Берліна"],
         [City.Bratislava]: ["Братислава","Братиславі","Братиславу","Братислави"],
         [City.Brno]: ["Брно","Брно","Брно","Брно"],
         [City.Budapest]: ["Будапешт", "Будапешті", "Будапешт","Будапешта"],
@@ -147,7 +139,6 @@ export const translateCity = {
         [City.Zagreb]: ["Загреб","Загребі","Загреб","Загреба"],
     },
     ru: {
-        [City.Berlin]: ["Берлин","Берлине","Берлин","Берлина"],
         [City.Bratislava]: ["Братислава","Братиславе","Братиславу","Братиславы"],
         [City.Brno]: ["Брно","Брно","Брно","Брно"],
         [City.Budapest]: ["Будапешт", "Будапеште", "Будапешт","Будапешта"],
@@ -173,7 +164,6 @@ export const translateCity = {
         [City.Zagreb]: ["Загреб","Загребе","Загреб","Загреба"],
     },
     en: {
-        [City.Berlin]: ["Berlin","Berlin","Berlin","Berlin"],
         [City.Bratislava]: ["Bratislava","Bratislava","Bratislava","Bratislava"],
         [City.Brno]: ["Brno","Brno","Brno","Brno"],
         [City.Budapest]: ["Budapest", "Budapest", "Budapest","Budapest"],

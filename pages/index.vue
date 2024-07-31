@@ -48,15 +48,15 @@ useHead({
 
 <i18n lang="yaml">
 ua:
-  title: 'Евакуатор Ужгород, Україна, Європа'
-  description: 'Послуги евакуатора у Ужгороді в Закарпатській області, по Україні та Європі недорого.'
-  keywords: 'евакуатор, ужгород, евакуатор ужгород, евакуація авто, SGtrans, евакуатор закарпаття, транспортування автомобіля'
+  title: 'Евакуатор Братислава, Словаччина, Європа'
+  description: 'Послуги евакуатора в Братиславі, Словаччині та Європі недорого.'
+  keywords: 'евакуатор, братислава, евакуатор братислава, евакуація авто, SGtrans, транспортування автомобіля'
 en:
-  title: 'Tow truck in Uzhhorod, Ukraine, Europe'
-  description: 'Tow truck services in Uzhhorod, Zakarpattia region, Ukraine and Europe.'
-  keywords: 'tow truck, uzhhorod, tow truck uzhhorod, car evacuation, SGtrans, tow truck zakarpattia, car transportation'
+  title: 'Tow truck in Bratislava, Slovakia, Europe'
+  description: 'Tow truck services in Bratislava, Slovakia and Europe.'
+  keywords: 'tow truck, bratislava, tow truck bratislava, car evacuation, SGtrans, tow truck slovakia, car transportation'
 ru:
-  title: 'Эвакуатор Ужгород, Украина, Европа'
-  description: 'Услуги эвакуатора в Ужгороде в Закарпатской области, по Украине и Европе.'
-  keywords: 'эвакуатор, ужгород, эвакуатор ужгород, эвакуация авто, SGtrans, эвакуатор закарпатья, транспортировка автомобиля'
+  title: 'Эвакуатор Братислава, Словакия, Европа'
+  description: 'Услуги эвакуатора в Братиславе, Словакии и Европе.'
+  keywords: 'эвакуатор, братислава, эвакуатор братислава, эвакуация авто, SGtrans, эвакуатор словакия, транспортировка автомобиля'
 </i18n>

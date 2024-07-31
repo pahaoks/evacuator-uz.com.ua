@@ -40,10 +40,6 @@
           </p>
 
           <p>
-            {{ t('contact_item_13') }}
-          </p>
-
-          <p>
             {{ t('contact_item_14') }}
           </p>
           <p>{{ t('contact_item_15') }}</p>
@@ -72,7 +68,7 @@ const decapitalize = ([first, ...rest], upperRest = false) =>
   first.toLowerCase() +
   (upperRest ? rest.join('').toUpperCase() : rest.join(''));
 
-const localCity = city ? city : 'uzhhorod'
+const localCity = city ? city : 'bratislava'
 
 let contactHeader = t("contact_header")
   .replace(inCityPlaqceholder, translateCity.t(locale.value, localCity, 1))
@@ -106,8 +102,7 @@ ua:
   in_europe: Європі
   good_and_cheap: якісно і недорого
   tow_truck_services: 'Послуги евакуатора в'
-  contact_header: 'Послуги евакуатора в !!!in_city!!!, Закарпатській області, по Україні та
-        Європі недорого.'
+  contact_header: 'Послуги евакуатора в Європі'
   tow_truck_sgtrans: 'Евакуатор SGTRANS'
   give_services: 'надає наступні послуги евакуатора за адекватну ціну:'
   contact_services: 'Евакуатор SGTRANS (!!!city!!!) надає наступні послуги евакуатора за
@@ -130,10 +125,6 @@ ua:
           неушкодженим у найкоротший час по зазначеній адресі незалежно від
           складності маршруту, погодних умов та відстані транспортування.
           Страхування вантажу!'
-  contact_item_13: 'Евакуатор SGtrans можна викликати в Ужгороді, Закарпатській області,
-          м.Мукачево, м.Чоп, м.Перечин, м.Іршава, м.Хуст, м.Виноградово,
-          м.Берегово, м.Тячів, м.Рахів. Ми перевеземо Ваше авто по Україні та
-          Європі.'
   contact_item_14: 'Рим, Мілан, Будапешт, Загреб, Бургас, Варна, Спліт, Відень,
           Зальцбург, Мюнхен, Берлін, Прага, Брно, Афіни, Париж, Вроцлав,
           Краків, Катовіце, Люблін, Варшава, Братіслава – евакуатори служби
@@ -153,8 +144,7 @@ ru:
   in_europe: Європе
   good_and_cheap: качественно и недорого
   tow_truck_services: 'Услуги эвакуатора в'
-  contact_header: 'Услуги эвакуатора в !!!in_city!!!, Закарпатской области, по Украине и
-        Европе недорого.'
+  contact_header: 'Услуги эвакуатора в Европе'
   tow_truck_sgtrans: 'Эвакуатор SGTRANS'
   give_services: 'предоставляет следующие услуги эвакуатора за адекватную цену:'
   contact_services: 'Эвакуатор SGTRANS (!!!city!!!) предоставляет следующие услуги
@@ -177,10 +167,6 @@ ru:
           не поврежденным в кратчайшие сроки по указанному адресу независимо от
           сложности маршрута, погодных условий и расстояния транспортировки.
           Страхование груза!'
-  contact_item_13: 'Эвакуатор SGtrans можно вызвать в Ужгороде, Закарпатской области,
-          г.Мукачево, г.Чоп, г.Перечин, г.Иршава, г.Хуст, г.Виноградово,
-          г.Берегово, г.Тячев, г.Рахов. Мы перевезем Ваше авто по Украине и
-          Европе.'
   contact_item_14: 'Рим, Милан, Будапешт, Загреб, Бургас, Варна, Сплит, Вена,
           Зальцбург, Мюнхен, Берлин, Прага, Брно, Афины, Париж, Вроцлав,
           Краков, Катовице, Люблин, Варшава, Братислава – эвакуаторы службы
@@ -200,8 +186,7 @@ en:
   in_europe: Europe
   good_and_cheap: good and inexpensive
   tow_truck_services: 'Tow truck services in'
-  contact_header: 'Tow truck services in !!!in_city!!!, Transcarpathian region, Ukraine and
-        Europe inexpensively.'
+  contact_header: 'Tow truck services in Europe'
   contact_services: 'Tow truck SGTRANS (!!!city!!!) provides the following evacuation services
           at an adequate price:'
   tow_truck_sgtrans: 'Tow truck SGTRANS'
@@ -224,10 +209,6 @@ en:
           undamaged in the shortest possible time to the specified address regardless of
           the complexity of the route, weather conditions and distance of transportation.
           Cargo insurance!'
-  contact_item_13: 'Tow truck SGtrans can be called in Uzhhorod, Transcarpathian region,
-          Mukachevo, Chop, Perechin, Irshava, Khust, Vinogradovo,
-          Beregovo, Tyachiv, Rakhov. We will transport your car throughout Ukraine and
-          Europe.'
   contact_item_14: 'Rome, Milan, Budapest, Zagreb, Burgas, Varna, Split, Vienna,
           Salzburg, Munich, Berlin, Prague, Brno, Athens, Paris, Wroclaw,
           Krakow, Katowice, Lublin, Warsaw, Bratislava - tow trucks of the service

@@ -14,8 +14,8 @@
 		    </div>
         
 		    <div class="large-6 columns">
-			    <h1 style="margin-left: 10px;" :class="{ 'heading--abroad': abroad }">{{ header }}</h1>
-			    <span style="margin-left: 10px;" class="subheading" :class="{ 'subheading--abroad': abroad }">
+			    <h1 style="margin-left: 10px;" class="heading--abroad">{{ header }}</h1>
+			    <span style="margin-left: 10px;" class="subheading subheading--abroad">
                     {{ body }}
                 </span>
                 <div class="front_banner_right_but">
@@ -34,27 +34,26 @@ const translateCountry = useTranslateCountry()
 
 const city = route.params.city 
 const country = route.params.country
-const abroad = !!country && country !== 'ukraine'
 
 let header = t('ask_help')
 
 
-if (abroad) {
-    if (city) {
-        header = t('ask_help_in') + ' ' + translateCity.t(locale.value, city, 1) + '?'
-    } else if (country) {
-        header = t('ask_help_in') + ' ' + translateCountry.t(locale.value, country, 1) + '?'
-    }
+if (city) {
+    header = t('ask_help_in') + ' ' + translateCity.t(locale.value, city, 1) + '?'
+} else if (country) {
+    header = t('ask_help_in') + ' ' + translateCountry.t(locale.value, country, 1) + '?'
+} else {
+    header = t('ask_help_in') + ' ' + t('in_europe') + '?'
 }
 
 let body = t('we_will_be_in_30_minutes')
 
-if (abroad) {
-    if (city) {
-        body = t('dont_worry') + ' ' + translateCity.t(locale.value, city, 2) + ' ' + t('as_soon_as_possible')
-    } else if (country) {
-        body = t('dont_worry') + ' ' + translateCountry.t(locale.value, country, 2) + ' ' + t('as_soon_as_possible')
-    }
+if (city) {
+    body = t('dont_worry') + ' ' + translateCity.t(locale.value, city, 2) + ' ' + t('as_soon_as_possible')
+} else if (country) {
+    body = t('dont_worry') + ' ' + translateCountry.t(locale.value, country, 2) + ' ' + t('as_soon_as_possible')
+} else {
+    body = t('any_place')
 }
 
 onMounted(() => {
@@ -77,6 +76,8 @@ onMounted(() => {
 
 <i18n lang="yaml">
 ua: 
+    in_europe: Європі
+    any_place: Дзвоніть нам, ми прибудемо куди треба, якнайшвидше, та допоможемо з транспортуванням вашого автомобіля в Україну, або будь-яке інше місто Європи
     dont_worry: Дзвоніть нам, ми прибудемо в
     as_soon_as_possible: якнайшвидше, та допоможемо з транспортуванням вашого автомобіля в Україну, або будь-яку точку Європи
     our_tow_truck: Наш евакуатор
@@ -87,6 +88,8 @@ ua:
     our_tow_track: Наш евакуатор
 
 ru:
+    in_europe: Европе
+    any_place: Звоните нам, мы приедем куда нужно, как можно скорее, и поможем с транспортировкой вашего автомобиля в Украину, или любой другой город Европы
     dont_worry: Звоните нам, мы приедем в
     as_soon_as_possible: как можно скорее и поможем с транспортировкой вашего автомобиля в Украину, или другую точку Европы
     our_tow_truck: Наш эвакуатор
@@ -97,6 +100,8 @@ ru:
     our_tow_track: Наш эвакуатор
 
 en:
+    in_europe: Europe
+    any_place: Call us, we will arrive wherever you need, as soon as possible, and will help you to tow your car to Ukraine, or any other location in Europe
     dont_worry: Call us, we will arrive in
     as_soon_as_possible: as soon as possible, and will help you to tow your car to Ukraine, or any other location in Europe
     our_tow_truck: Our tow truck

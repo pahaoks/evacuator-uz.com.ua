@@ -63,11 +63,7 @@ const translateCity = useTranslateCity()
 const translateCountry = useTranslateCountry()
 
 const city = route.params.city
-const country = route.params.country
-
-let place = city ?
-	translateCity.t(locale.value, city, 1) :
-	country ? translateCountry.t(locale.value, country, 1) : t('in_default_city')	
+const country = route.params.country	
 </script>
 
 <i18n lang="yaml">

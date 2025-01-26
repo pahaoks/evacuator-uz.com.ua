@@ -4,7 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "node generate-sitemap.js; nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "sitemap": "node generate-sitemap.js"

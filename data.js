@@ -35,6 +35,13 @@ export let allCountries = [
 export let City = {
     // Austria
     Vienna: "vienna",
+    Gratz: "gratz",
+    Linz: "linz",
+    Salzburg: "salzburg",
+    Innsbruck: "innsbruck",
+    KragenfurtWertez: "kragenfurt-wertez",
+    SanktPeltin: "sankt-peltin",
+    Bregenz: "bregenz",
 
     // Bulgaria,
     Burgas: "burgas",
@@ -112,7 +119,16 @@ export let City = {
 }
 
 export const countriesCities = {
-    [Country.Austria]: [City.Vienna],
+    [Country.Austria]: [
+        City.Vienna,
+        City.Gratz,
+        City.Linz,
+        City.Salzburg,
+        City.Innsbruck,
+        City.KragenfurtWertez,
+        City.SanktPeltin,
+        City.Bregenz,
+    ],
     [Country.Bulgaria]: [City.Burgas, City.Varna, City.Sofia],
     [Country.Croatia]: [City.Zagreb],
     [Country.Czech]: [City.Prague, City.Brno],
@@ -221,6 +237,13 @@ export const translateCity = {
     ua: {
         // Austria,
         [City.Vienna]: ["Відень","Відні","Відень","Відня"],
+        [City.Gratz]: ["Грац","Граці","Грац","Граца"],
+        [City.Linz]: ["Лінц","Лінці","Лінц","Лінца"],
+        [City.Salzburg]: ["Зальцбург","Зальцбурзі","Зальцбург","Зальцбурга"],
+        [City.Innsbruck]: ["Інсбрук","Інсбруці","Інсбрук","Інсбрука"],
+        [City.KragenfurtWertez]: ["Крагенфурт-на-Вертеці","Крагенфурті-на-Вертеці","Крагенфурт-на-Вертеці","Крагенфурта-на-Вертеці"],
+        [City.SanktPeltin]: ["Санкт-Пельтін","Санкт-Пельтіні","Санкт-Пельтін","Санкт-Пельтіна"],
+        [City.Bregenz]: ["Брегенц","Брегенці","Брегенц","Брегенца"],
 
         // Bulgaria,
         [City.Burgas]: ["Бургас","Бургасі","Бургас","Бургаса"],
@@ -299,6 +322,13 @@ export const translateCity = {
     ru: {
         // Austria,
         [City.Vienna]: ["Вена","Вене","Вену","Вены"],
+        [City.Gratz]: ["Грац","Граце","Грац","Граца"],
+        [City.Linz]: ["Линц","Линце","Линц","Линца"],
+        [City.Salzburg]: ["Зальцбург","Зальцбурге","Зальцбург","Зальцбурга"],
+        [City.Innsbruck]: ["Инсбрук","Инсбруке","Инсбрук","Инсбрука"],
+        [City.KragenfurtWertez]: ["Крагенфурт-на-Вертеце","Крагенфурте-на-Вертеце","Крагенфурт-на-Вертеце","Крагенфурта-на-Вертеце"],
+        [City.SanktPeltin]: ["Санкт-Пельтин","Санкт-Пельтине","Санкт-Пельтин","Санкт-Пельтина"],
+        [City.Bregenz]: ["Брегенц","Брегенце","Брегенц","Брегенца"],
         
         // Bulgaria,
         [City.Burgas]: ["Бургас","Бургасе","Бургасе","Бургаса"],
@@ -377,6 +407,13 @@ export const translateCity = {
     en: {
         // Austria,
         [City.Vienna]: ["Vienna","Vienna","Vienna","Vienna"],
+        [City.Gratz]: ["Gratz","Gratz","Gratz","Gratz"],
+        [City.Linz]: ["Linz","Linz","Linz","Linz"],
+        [City.Salzburg]: ["Salzburg","Salzburg","Salzburg","Salzburg"],
+        [City.Innsbruck]: ["Innsbruck","Innsbruck","Innsbruck","Innsbruck"],
+        [City.KragenfurtWertez]: ["Klagenfurt","Klagenfurt","Klagenfurt","Klagenfurt"],
+        [City.SanktPeltin]: ["Sankt-Peltin","Sankt-Peltin","Sankt-Peltin","Sankt-Peltin"], 
+        [City.Bregenz]: ["Bregenz","Bregenz","Bregenz","Bregenz"],
         
         // Bulgaria,
         [City.Burgas]: ["Burgas","Burgas","Burgas","Burgas"],

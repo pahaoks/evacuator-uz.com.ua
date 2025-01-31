@@ -20,9 +20,12 @@
                             {{ translateCountry.t(locale, country, 3) }}
                         </NuxtLink>
 
-                        <ul>
+                        <ul :style="{ display: currentCountry === country ? 'block' : 'none' }">
                             <li v-for="city in countriesCities[country]" :key="city">
-                                <NuxtLink :key="country" :to="path(locale, 'place', country, city)">
+                                <NuxtLink 
+                                    :key="country" 
+                                    :to="path(locale, 'place', country, city)"
+                                    @click="menuOpened = false">
                                     {{ translateCity.t(locale, city, 3) }}
                                 </NuxtLink>
                             </li>
@@ -42,6 +45,8 @@ const { locale, t } = useI18n()
 const path = usePath()
 const translateCountry = useTranslateCountry()
 const translateCity = useTranslateCity()
+const route = useRoute()
+let currentCountry = route.params.country
 </script>
 
 <style lang="sass">

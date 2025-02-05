@@ -50,6 +50,7 @@ export let City = {
     KragenfurtWertez: "kragenfurt-wertez",
     SanktPeltin: "sankt-peltin",
     Bregenz: "bregenz",
+    Parndorf: "parndorf",
 
     // Bulgaria,
     Burgas: "burgas",
@@ -291,6 +292,7 @@ export const countriesCities = {
         City.KragenfurtWertez,
         City.SanktPeltin,
         City.Bregenz,
+        City.Parndorf,
     ],
     [Country.Bulgaria]: [
         City.Burgas, 
@@ -614,6 +616,7 @@ export const translateCity = {
         [City.KragenfurtWertez]: ["Крагенфурт-на-Вертеці","Крагенфурті-на-Вертеці","Крагенфурт-на-Вертеці","Крагенфурта-на-Вертеці"],
         [City.SanktPeltin]: ["Санкт-Пельтін","Санкт-Пельтіні","Санкт-Пельтін","Санкт-Пельтіна"],
         [City.Bregenz]: ["Брегенц","Брегенці","Брегенц","Брегенца"],
+        [City.Parndorf]: ["Парндорф","Парндорфі","Парндорф","Парндорфа"],
 
         // Bulgaria,
         [City.Burgas]: ["Бургас","Бургасі","Бургас","Бургаса"],
@@ -854,6 +857,7 @@ export const translateCity = {
         [City.KragenfurtWertez]: ["Крагенфурт-на-Вертеце","Крагенфурте-на-Вертеце","Крагенфурт-на-Вертеце","Крагенфурта-на-Вертеце"],
         [City.SanktPeltin]: ["Санкт-Пельтин","Санкт-Пельтине","Санкт-Пельтин","Санкт-Пельтина"],
         [City.Bregenz]: ["Брегенц","Брегенце","Брегенц","Брегенца"],
+        [City.Parndorf]: ["Парндорф", "Парндорфе", "Парндорф", "Парндорфа"],
         
         // Bulgaria,
         [City.Burgas]: ["Бургас","Бургасе","Бургасе","Бургаса"],
@@ -1094,6 +1098,7 @@ export const translateCity = {
         [City.KragenfurtWertez]: ["Klagenfurt","Klagenfurt","Klagenfurt","Klagenfurt"],
         [City.SanktPeltin]: ["Sankt-Peltin","Sankt-Peltin","Sankt-Peltin","Sankt-Peltin"], 
         [City.Bregenz]: ["Bregenz","Bregenz","Bregenz","Bregenz"],
+        [City.Parndorf]: ["Parndorf","Parndorf","Parndorf","Parndorf"],
         
         // Bulgaria,
         [City.Burgas]: ["Burgas","Burgas","Burgas","Burgas"],

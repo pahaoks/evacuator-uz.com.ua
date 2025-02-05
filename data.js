@@ -55,6 +55,9 @@ export let City = {
     Burgas: "burgas",
     Sofia: "sofia",
     Varna: "varna",
+    Plovdiv: "plovdiv",
+    Pleven: "pleven",
+    Ruse: "ruse",
     
     // Croatia,
     Zagreb: "zagreb",
@@ -270,7 +273,14 @@ export const countriesCities = {
         City.SanktPeltin,
         City.Bregenz,
     ],
-    [Country.Bulgaria]: [City.Burgas, City.Varna, City.Sofia],
+    [Country.Bulgaria]: [
+        City.Burgas, 
+        City.Varna, 
+        City.Sofia,
+        City.Plovdiv,
+        City.Pleven,
+        City.Ruse,
+    ],
     [Country.Croatia]: [
         City.Zagreb,
         City.Split,
@@ -310,7 +320,13 @@ export const countriesCities = {
         City.Chomutov,
         City.KarlovyVary,
     ],
-    [Country.France]: [City.Lyon, City.Nice, City.Paris, City.Toulouse, City.Marceille],
+    [Country.France]: [
+        City.Lyon, 
+        City.Nice, 
+        City.Paris, 
+        City.Toulouse, 
+        City.Marceille,
+    ],
     [Country.Germany]: [
         City.Berlin, 
         City.Munich, 
@@ -365,7 +381,10 @@ export const countriesCities = {
         City.Shopron,
         City.Eger,
     ], 
-    [Country.Italy]: [City.Roma, City.Milan],
+    [Country.Italy]: [
+        City.Roma, 
+        City.Milan,
+    ],
     [Country.Montenegro]: [
         City.Budva, 
         City.Podgorica, 
@@ -401,7 +420,9 @@ export const countriesCities = {
         City.Radom,
         City.Sosnowiec,
     ],
-    [Country.Romania]: [City.Buharest],
+    [Country.Romania]: [
+        City.Buharest,
+    ],
     [Country.Serbia]: [
         City.Belgrad,
         City.NoviSad,
@@ -453,8 +474,15 @@ export const countriesCities = {
         City.Trbovlje,
         City.Jesenice,
     ],
-    [Country.Spain]: [City.Barcelona, City.Madrid, City.Valencia],
-    [Country.Switzerland]: [City.Zurich, City.Bern],
+    [Country.Spain]: [
+        City.Barcelona, 
+        City.Madrid, 
+        City.Valencia,
+    ],
+    [Country.Switzerland]: [
+        City.Zurich, 
+        City.Bern,
+    ],
 }
 
 // Кто? Где? Куда? Откуда?
@@ -553,6 +581,9 @@ export const translateCity = {
         [City.Burgas]: ["Бургас","Бургасі","Бургас","Бургаса"],
         [City.Sofia]: ["Софія","Софії","Софію","Софії"],
         [City.Varna]: ["Варна","Варні","Варну","Варни"],
+        [City.Plovdiv]: ["Пловдів","Пловдіві","Пловдів","Пловдіва"],
+        [City.Pleven]: ["Плевен","Плевені","Плевен","Плевена"],
+        [City.Ruse]: ["Русе","Русе","Русе","Русе"],
         
         // Croatia,
         [City.Zagreb]: ["Загреб","Загребі","Загреб","Загреба"],
@@ -771,6 +802,9 @@ export const translateCity = {
         [City.Burgas]: ["Бургас","Бургасе","Бургасе","Бургаса"],
         [City.Sofia]: ["София","Софии","Софию","Софии"],
         [City.Varna]: ["Варна","Варне","Варну","Варны"],
+        [City.Plovdiv]: ["Пловдив","Пловдиве","Пловдив","Пловдива"],
+        [City.Pleven]: ["Плевен","Плевене","Плевен","Плевена"],
+        [City.Ruse]: ["Русе","Русе","Русе","Русе"],
         
         // Croatia,
         [City.Zagreb]: ["Загреб","Загребе","Загреб","Загреба"],
@@ -989,6 +1023,9 @@ export const translateCity = {
         [City.Burgas]: ["Burgas","Burgas","Burgas","Burgas"],
         [City.Sofia]: ["Sofia","Sofia","Sofia","Sofia"],
         [City.Varna]: ["Varna","Varna","Varna","Varna"],
+        [City.Plovdiv]: ["Plovdiv","Plovdiv","Plovdiv","Plovdiv"],
+        [City.Pleven]: ["Pleven","Pleven","Pleven","Pleven"],
+        [City.Ruse]: ["Ruse","Ruse","Ruse","Ruse"],
         
         // Croatia,
         [City.Zagreb]: ["Zagreb","Zagreb","Zagreb","Zagreb"],

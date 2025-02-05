@@ -8,6 +8,7 @@ export let Country = {
     Greece: "greece",
     Hungary: "hungary",
     Italy: "italy",
+    Luxembourg: "luxembourg",
     Montenegro: "montenegro",
     NorthMacedonia: "north-macedonia",
     Poland: "poland",
@@ -29,6 +30,7 @@ export let allCountries = [
     Country.Greece,
     Country.Hungary,
     Country.Italy,
+    Country.Luxembourg,
     Country.Montenegro,
     Country.NorthMacedonia,
     Country.Poland,
@@ -182,6 +184,10 @@ export let City = {
     Turin: "turin",
     Livorno: "livorno",
     Lucca: "lucca",
+
+    // Luxembourg,
+    Differdanj: "differdanj",
+    Dudelanzh: "dudelanzh",
 
     // Montenegro,
     Budva: "budva",
@@ -435,6 +441,10 @@ export const countriesCities = {
         City.Livorno,
         City.Lucca,
     ],
+    [Country.Luxembourg]: [
+        City.Differdanj,
+        City.Dudelanzh,
+    ],
     [Country.Montenegro]: [
         City.Budva, 
         City.Podgorica, 
@@ -556,6 +566,7 @@ export const translateCountry = {
         [Country.Greece]: ["Греція","Греції","Грецію","Греції"],
         [Country.Hungary]: ["Угорщина","Угорщині","Угорщину","Угорщини"],
         [Country.Italy]: ["Італія","Італії","Італію","Італії"],
+        [Country.Luxembourg]: ["Люксембург","Люксембурзі","Люксембург","Люксембурга"],
         [Country.Montenegro]: ["Чорногорія","Чорногорії","Чорногорію","Чорногорії"],
         [Country.NorthMacedonia]: ["Північна Македонія","Північній Македонії","Північну Македонію","Північної Македонії"],
         [Country.Poland]: ["Польща","Польщі","Польщу","Польщі"],
@@ -576,6 +587,7 @@ export const translateCountry = {
         [Country.Greece]: ["Греция","Греции","Грецию","Греции"],
         [Country.Hungary]: ["Венгрия","Венгрии","Венгрию","Венгрии"],
         [Country.Italy]: ["Италия","Италии","Италию","Италии"],
+        [Country.Luxembourg]: ["Люксембург","Люксембурга","Люксембургу","Люксембурга"],
         [Country.Montenegro]: ["Черногория","Черногории","Черногорию","Черногории"],
         [Country.NorthMacedonia]: ["Северная Македония","Северной Македонии","Северную Македонию","Северной Македонии"],
         [Country.Poland]: ["Польша","Польши","Польшу","Польши"],
@@ -596,6 +608,7 @@ export const translateCountry = {
         [Country.Greece]: ["Greece","Greece","Greece","Greece"],
         [Country.Hungary]: ["Hungary","Hungary","Hungary","Hungary"],
         [Country.Italy]: ["Italy","Italy","Italy","Italy"],
+        [Country.Luxembourg]: ["Luxembourg","Luxembourg","Luxembourg","Luxembourg"],
         [Country.Montenegro]: ["Montenegro","Montenegro","Montenegro","Montenegro"],
         [Country.NorthMacedonia]: ["North Macedonia","North Macedonia","North Macedonia","North Macedonia"],
         [Country.Poland]: ["Poland","Poland","Poland","Poland"],
@@ -767,6 +780,10 @@ export const translateCity = {
         [City.Turin]: ["Турин","Турині","Турин","Турину"],
         [City.Livorno]: ["Ліворно","Ліворно","Ліворно","Ліворно"],
         [City.Lucca]: ["Лукка","Луцці","Лукку","Лукки"],
+
+        // Luxembourg,
+        [City.Differdanj]: ["Діфферданж","Діфферданжі","Діфферданж","Діфферданжа"],
+        [City.Dudelanzh]: ["Дюделанж","Дюделанжі","Дюделанж","Дюделанжа"],
 
         // Montenegro,
         [City.Budva]: ["Будва","Будві","Будву","Будви"],
@@ -1018,6 +1035,10 @@ export const translateCity = {
         [City.Livorno]: ["Ливорно","Ливорно","Ливорно","Ливорно"],
         [City.Lucca]: ["Лукка","Лукке","Лукку","Лукки"],
 
+        // Luxembourg,
+        [City.Differdanj]: ["Дифферданж","Дифферданже","Дифферданж","Дифферданжа"],
+        [City.Dudelanzh]: ["Дюделанж","Дюделанже","Дюделанж","Дюделанжа"],
+
         // Montenegro,
         [City.Budva]: ["Будва","Будве","Будву","Будвы"],
         [City.Podgorica]: ["Подгорица","Подгорице","Подгорицу","Подгорицы"],
@@ -1267,6 +1288,10 @@ export const translateCity = {
         [City.Turin]: ["Turin","Turin","Turin","Turin"],
         [City.Livorno]: ["Livorno","Livorno","Livorno","Livorno"],
         [City.Lucca]: ["Lucca","Lucca","Lucca","Lucca"],
+
+        // Luxembourg,
+        [City.Differdanj]: ["Differdanj","Differdanj","Differdanj","Differdanj"],
+        [City.Dudelanzh]: ["Dudelanzh","Dudelanzh","Dudelanzh","Dudelanzh"],
 
         // Montenegro,
         [City.Budva]: ["Budva","Budva","Budva","Budva"],

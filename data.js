@@ -333,7 +333,6 @@ export const countriesCities = {
         City.Belovar,
         City.Porec,
         City.Omis,
-        City.Makarska,
         City.BaskaVoda,
         City.Makarska,
         City.Rovinj,

@@ -125,9 +125,7 @@ ua:
           неушкодженим у найкоротший час по зазначеній адресі незалежно від
           складності маршруту, погодних умов та відстані транспортування.
           Страхування вантажу!'
-  contact_item_14: 'Рим, Мілан, Будапешт, Загреб, Бургас, Варна, Спліт, Відень,
-          Зальцбург, Мюнхен, Берлін, Прага, Брно, Афіни, Париж, Вроцлав,
-          Краків, Катовіце, Люблін, Варшава, Братіслава – евакуатори служби
+  contact_item_14: 'Евакуатори служби
           "SGTRANS" перевезуть Ваш автомобіль у будь яке місто Європи.
           Наші фахівці нададуть кваліфіковану юридичну допомогу при перетині
           кордону та досконало розмовляють англійською, адекватна ціна на
@@ -167,9 +165,7 @@ ru:
           не поврежденным в кратчайшие сроки по указанному адресу независимо от
           сложности маршрута, погодных условий и расстояния транспортировки.
           Страхование груза!'
-  contact_item_14: 'Рим, Милан, Будапешт, Загреб, Бургас, Варна, Сплит, Вена,
-          Зальцбург, Мюнхен, Берлин, Прага, Брно, Афины, Париж, Вроцлав,
-          Краков, Катовице, Люблин, Варшава, Братислава – эвакуаторы службы
+  contact_item_14: 'Эвакуаторы службы
           "SGTRANS" перевезут Ваш автомобиль в любой город Европы.
           Наши специалисты окажут квалифицированную юридическую помощь при
           пересечении границы и отлично говорят по-английски, адекватная цена
@@ -209,9 +205,7 @@ en:
           undamaged in the shortest possible time to the specified address regardless of
           the complexity of the route, weather conditions and distance of transportation.
           Cargo insurance!'
-  contact_item_14: 'Rome, Milan, Budapest, Zagreb, Burgas, Varna, Split, Vienna,
-          Salzburg, Munich, Berlin, Prague, Brno, Athens, Paris, Wroclaw,
-          Krakow, Katowice, Lublin, Warsaw, Bratislava - tow trucks of the service
+  contact_item_14: 'Tow trucks of the service
           "SGTRANS" will transport your car to any city in Europe.
           Our specialists will provide qualified legal assistance when
           crossing the border and speak English well, adequate price

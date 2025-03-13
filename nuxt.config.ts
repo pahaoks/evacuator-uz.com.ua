@@ -45,6 +45,10 @@ export default defineNuxtConfig({
     ],
     i18n: {
         vueI18n: './i18n.config.ts',
+        precompile: {
+          strictMessage: false,
+          escapeHtml: false,
+        },
         locales: [
             { code: 'ua', iso: 'uk-UA', name: 'Українська' },
             { code: 'en', iso: 'en-US', name: 'English' },

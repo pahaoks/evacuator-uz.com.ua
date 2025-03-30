@@ -18,6 +18,7 @@ export let Country = {
     Slovenia: "slovenia",
     Spain: "spain",
     Switzerland: "switzerland",
+    Ukraine: "ukraine",
 }
 
 export let allCountries = [
@@ -40,6 +41,7 @@ export let allCountries = [
     Country.Slovenia,
     Country.Spain,
     Country.Switzerland,
+    Country.Ukraine,
 ]
 
 export let City = {
@@ -296,6 +298,10 @@ export let City = {
     Biel: "biel",
     Thun: "thun",
     Kenitz: "kenitz",
+
+    // Ukraine
+    Uzhhorod: "uzhhorod",
+    Mukachevo: "mukachevo",
 }
 
 export const countriesCities = {
@@ -551,6 +557,10 @@ export const countriesCities = {
         City.Thun,
         City.Kenitz,
     ],
+    [Country.Ukraine]: [
+        City.Uzhhorod,
+        City.Mukachevo,
+    ],
 }
 
 // Кто? Где? Куда? Откуда?
@@ -575,6 +585,7 @@ export const translateCountry = {
         [Country.Slovenia]: ["Словенія","Словенії","Словенію","Словенії"],
         [Country.Spain]: ["Іспанія","Іспанії","Іспанію","Іспанії"],
         [Country.Switzerland]: ["Швейцарія","Швейцарії","Швейцарію","Швейцарії"],
+        [Country.Ukraine]: ["Україна","Україні","Україну","України"],
     },
     ru: {
         [Country.Austria]: ["Австрия","Австрии","Австрию","Австрии"],
@@ -596,6 +607,7 @@ export const translateCountry = {
         [Country.Slovenia]: ["Словения","Словении","Словению","Словении"],
         [Country.Spain]: ["Испания","Испании","Испанию","Испании"],
         [Country.Switzerland]: ["Швейцария","Швейцарии","Швейцарию","Швейцарии"],
+        [Country.Ukraine]: ["Украина","Украине","Украину","Украины"],
     }, 
     en: {
         [Country.Austria]: ["Austria","Austria","Austria","Austria"],
@@ -617,6 +629,7 @@ export const translateCountry = {
         [Country.Slovenia]: ["Slovenia","Slovenia","Slovenia","Slovenia"],
         [Country.Spain]: ["Spain","Spain","Spain","Spain"],
         [Country.Switzerland]: ["Switzerland","Switzerland","Switzerland","Switzerland"],
+        [Country.Ukraine]: ["Ukraine","Ukraine","Ukraine","Ukraine"],
     },
     t(locale, country, element) {
         if (!this[locale]) {
@@ -890,6 +903,10 @@ export const translateCity = {
         [City.Biel]: ["Біель","Біелі","Біель","Біеля"],
         [City.Thun]: ["Тун","Туні","Тун","Туна"],
         [City.Kenitz]: ["Кеніц","Кеніці","Кеніц","Кеніца"],
+
+        // Ukraine,
+        [City.Uzhhorod]: ["Ужгород","Ужгороді","Ужгород","Ужгорода"],
+        [City.Mukachevo]: ["Мукачево","Мукачево","Мукачево","Мукачево"],
     },
     ru: {
         // Austria,
@@ -1144,6 +1161,10 @@ export const translateCity = {
         [City.Biel]: ["Биль","Биле","Биль","Биля"],
         [City.Thun]: ["Тун","Туне","Тун","Туна"],
         [City.Kenitz]: ["Кениц","Кенице","Кениц","Кеница"],
+
+        // Ukraine,
+        [City.Uzhhorod]: ["Ужгород","Ужгороде","Ужгород","Ужгорода"],
+        [City.Mukachevo]: ["Мукачево","Мукачево","Мукачево","Мукачево"],
     },
     en: {
         // Austria,
@@ -1398,6 +1419,10 @@ export const translateCity = {
         [City.Biel]: ["Biel","Biel","Biel","Biel"],
         [City.Thun]: ["Thun","Thun","Thun","Thun"],
         [City.Kenitz]: ["Kenitz","Kenitz","Kenitz","Kenitz"],
+
+        // Ukraine,
+        [City.Uzhhorod]: ["Uzhhorod","Uzhhorod","Uzhhorod","Uzhhorod"],
+        [City.Mukachevo]: ["Mukachevo","Mukachevo","Mukachevo","Mukachevo"],
     },
     t(locale, city, element) {
         if (!this[locale]) {

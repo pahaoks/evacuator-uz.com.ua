@@ -6,6 +6,7 @@
     <Call/>
     <Features/>
     <Product/>
+    <Reviews/>
     <LazyHydrate never>
       <Photos/>
     </LazyHydrate>

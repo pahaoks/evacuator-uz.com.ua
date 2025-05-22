@@ -46,7 +46,7 @@ if (city) {
     header = t('ask_help_in') + ' ' + t('in_europe') + '?'
 }
 
-let body = t('we_will_be_in_30_minutes')
+let body = t('we_will_be_soon')
 
 if (city) {
     body = t('dont_worry') + ' ' + translateCity.t(locale.value, city, 2) + ' ' + t('as_soon_as_possible')
@@ -83,7 +83,7 @@ ua:
     our_tow_truck: Наш евакуатор
     ask_help: Потрібна допомога?
     ask_help_in: Зламалась машина в
-    we_will_be_in_30_minutes: Будемо через 30 хвилин! Всі види послуг евакуації автотранспорту та спецтехніки
+    we_will_be_soon: Прибудемо якнайшвидше! Всі види послуг евакуації автотранспорту та спецтехніки
     call_tow_truck: Викликати евакуатор
     our_tow_track: Наш евакуатор
 
@@ -95,7 +95,7 @@ ru:
     our_tow_truck: Наш эвакуатор
     ask_help: Нужна помощь?
     ask_help_in: Сломалась машина в
-    we_will_be_in_30_minutes: Будем через 30 минут! Все виды услуг эвакуации автотранспорта и спецтехники
+    we_will_be_soon: Прибудем как можно скорее! Все виды услуг эвакуации автотранспорта и спецтехники
     call_tow_truck: Вызвать эвакуатор
     our_tow_track: Наш эвакуатор
 
@@ -107,7 +107,7 @@ en:
     our_tow_truck: Our tow truck
     ask_help: Need help?
     ask_help_in: Need help in
-    we_will_be_in_30_minutes: We will be in 30 minutes! All types of evacuation services for vehicles and special equipment
+    we_will_be_soon: We will be there soon! All types of evacuation services for vehicles and special equipment
     call_tow_truck: Call a tow truck
     our_tow_track: Our tow truck
 

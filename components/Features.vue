@@ -28,24 +28,24 @@ const { t } = useI18n()
 ua:
     work_more_than_5_years: Працюємо вже більше 5 років
     work_from: Працюємо з 2015 року, гарантуємо якісний сервіс 24/7 без вихідних. Виконуємо будь-які завдання по евакуації і транспортуванні автомобіля.
-    speed: Подача машини протягом 30 хвилин
-    availability: Постійно в наявності і готовності до роботи є кілька вільних евакуаторів, тому ми приїдемо в найкоротший термін до 30 хвилин.
+    speed: Подача машини в найкоротші терміни
+    availability: Постійно в наявності і готовності до роботи є кілька вільних евакуаторів, тому ми приїдемо якнайскоріше.
     abroad: Евакуація авто по Європі
     technical_help_abroad: Перевезення автомобіля по Європі, перетин кордону, авто на розмитнення. Технічна допомога та перевезення за кордоном.
 
 ru:
     work_more_than_5_years: Работаем уже более 5 лет
     work_from: Работаем с 2015 года, гарантируем качественный сервис 24/7 без выходных. Выполняем любые задачи по эвакуации и транспортировке автомобиля.
-    speed: Подача машины в течении 30 минут
-    availability: Постоянно в наличии и готовности к работе есть несколько свободных эвакуаторов, поэтому мы приедем в кратчайшие сроки до 30 минут.
+    speed: Подача машины в кратчайшие сроки
+    availability: Постоянно в наличии и готовности к работе есть несколько свободных эвакуаторов, поэтому мы приедем как можно быстрее.
     abroad: Эвакуация авто по Европе
     technical_help_abroad: Перевозка автомобиля по Европе, пересечение границы, авто на растаможку. Техническая помощь и перевозка за границей.
 
 en:
     work_more_than_5_years: We work more than 5 years
     work_from: We have been working since 2015, we guarantee quality service 24/7 without days off. We perform any tasks for evacuation and transportation of a car.
-    speed: Car delivery within 30 minutes
-    availability: There are always several free tow trucks in stock and ready to work, so we will arrive in the shortest possible time within 30 minutes.
+    speed: Car delivery in the shortest possible time
+    availability: There are always several free tow trucks in stock and ready to work, so we will arrive in the shortest possible time.
     abroad: Car evacuation across Europe
     technical_help_abroad: Car transportation across Europe, crossing the border, car for customs clearance. Technical assistance and transportation abroad.
 </i18n>

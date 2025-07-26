@@ -39,12 +39,36 @@
 										{{ t('cash_payment') }}
 									</div>
 								</div>
-								<div class="tariffs_threeblocks_item" style="margin-right: 100px;">
+								<div class="tariffs_threeblocks_item">
 									<div class="tariffs_threeblocks_img">
 										<img src="/img/privat24.png" title="">
 									</div>
 									<div class="tariffs_threeblocks_text">
 										Privat24
+									</div>
+								</div>
+                                <div class="tariffs_threeblocks_item">
+									<div class="tariffs_threeblocks_img">
+										<img src="/img/visa-mastercard.png" title="">
+									</div>
+									<div class="tariffs_threeblocks_text">
+										Visa/Mastercard
+									</div>
+								</div>
+                                <div class="tariffs_threeblocks_item">
+									<div class="tariffs_threeblocks_img">
+										<img src="/img/paypal.png" title="">
+									</div>
+									<div class="tariffs_threeblocks_text">
+										PayPal
+									</div>
+								</div>
+                                 <div class="tariffs_threeblocks_item">
+									<div class="tariffs_threeblocks_img">
+										<img src="/img/crypto.png" title="">
+									</div>
+									<div class="tariffs_threeblocks_text">
+										{{ t('crypto_payment') }}
 									</div>
 								</div>
 							</div>
@@ -74,6 +98,7 @@ ua:
     price_depends: Ціна формується в залежності від типу та ваги автомобіля і необхідної відстані
     cash_payment: Готівковий розрахунок
     payment_ways: Способи оплати
+    crypto_payment: Криптовалюта
 	
 ru:
     our_services: 'Наши услуги'
@@ -82,6 +107,7 @@ ru:
     price_depends: 'Цена формируется в зависимости от типа и веса автомобиля и необходимого расстояния'
     cash_payment: 'Наличный расчет'
     payment_ways: 'Способы оплаты'
+    crypto_payment: 'Криптовалюта'
 
 en:
     our_services: Our services
@@ -90,4 +116,5 @@ en:
     price_depends: The price is formed depending on the type and weight of the car and the required distance
     cash_payment: Cash payment
     payment_ways: Payment methods
+    crypto_payment: Cryptocurrency
 </i18n>

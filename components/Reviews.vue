@@ -1,8 +1,8 @@
 <template>
     <div class="row">
         <h2 style="margin-bottom: 0.4em">
-					{{ t('our_reviews') }}
-				</h2>
+			{{ t('our_reviews') }}
+		</h2>
         <div id="reviews"></div>
     </div>
 </template>

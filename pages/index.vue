@@ -10,9 +10,10 @@
     <LazyHydrate never>
       <Photos/>
     </LazyHydrate>
-    <Benefits/>
-    <Contacts/>
-    <Seo/>
+    <Benefits />
+    <Description />
+    <Seo />
+    <Contacts />
     <Footer/>
   </div>
 </template>

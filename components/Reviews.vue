@@ -15,7 +15,11 @@ onMounted(() => {
   const script = document.createElement('script')
   script.src = 'https://cdn.trustindex.io/loader.js?318a1e1467dd41977d16a44f94e'
   script.async = true
+  script.defer = true
   document.getElementById('reviews').appendChild(script)
+  script.onload = () => {
+    document.documentElement.style.overflow = 'auto';
+  }
 })
 </script>
 

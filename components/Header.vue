@@ -7,9 +7,9 @@
 
           <ul class="title-area">
             <li class="name logo">
-              <a style="font-size: 50px; line-height: 78px">
-                <span style="color: #4e97cc">SG</span>
-                <span style="color: #808080">trans</span>
+              <a style="font-size: 40px; line-height: 78px">
+                <span style="color: #4e97cc">SVI</span>
+                <span style="color: #808080">transporter</span>
               </a>
             </li>
           </ul>
@@ -22,7 +22,7 @@
                   class="text_copy_link"
                   id="logo-number"
                 >
-                  <i class="fa fa-phone"></i> +380 98 133 76 27
+                  <i class="fa fa-phone"></i>+380 98 133 76 27
                 </a>
                 <a
                   class="imhide"
@@ -35,9 +35,17 @@
                   class="imhide"
                   href="https://wa.me/380981337627"
                   target="_blank"
-                  style="display: none"
+                  style="margin-right: 20px; display: none"
                 >
                   <img src="/img/whatsapp.png" width="50px" />
+                </a>
+                <a
+                  class="imhide"
+                  href="https://t.me/svi_transporter"
+                  target="_blank"
+                  style="display: none; padding: 0"
+                >
+                  <img src="/img/telegram-icon.png" width="55px" />
                 </a>
               </li>
               <li class="imhide2">
@@ -55,6 +63,15 @@
                     style="margin-top: 25%"
                     src="/img/whatsapp.png"
                     width="50px"
+                  />
+                </a>
+              </li>
+              <li class="imhide2">
+                <a href="https://t.me/svi_transporter" target="_blank" style="padding: 0">
+                  <img
+                    style="margin-top: 20%;"
+                    src="/img/telegram-icon.png"
+                    width="55px"
                   />
                 </a>
               </li>
@@ -113,8 +130,12 @@ const slash = (l) => l !== 'ua' ? '/' : ''
 
   .lang-switcher {
     position: absolute;
-    top: 80px;
+    top: 60px;
     right: 0;
+  }
+
+  .text_copy_link{
+    margin-bottom: 10px
   }
 }
 </style>

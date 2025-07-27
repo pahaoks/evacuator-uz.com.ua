@@ -27,7 +27,7 @@
 							</div>
 						</div>
 						<div class="tariffs_threeblocks">
-							<h2 style="font-size:34px;margin-bottom: 20px;margin-top: 30px;">
+							<h2 style="margin-bottom: 20px;margin-top: 30px;">
 								{{ t('payment_ways') }}
 							</h2>
 							<div class="tariffs_threeblocks_wrapper flex">

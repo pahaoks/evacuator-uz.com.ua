@@ -11,8 +11,9 @@
             <Photos />
         </LazyHydrate>
         <Benefits />
-        <Contacts />
+        <Description />
         <Seo />
+        <Contacts />
         <Footer />
     </div>
 </template>

@@ -39,6 +39,7 @@ h2 {
 	color: #222;
 	font-size: 20px;
 	font-weight: 200;
+    padding: 0 5px;
 }
 .top-bar {
 	height: 78px;
@@ -47,7 +48,7 @@ h2 {
 .top-bar a{font-family: 'Cabin Condensed', sans-serif;}
 .top-bar .logo {
 	height: 78px;
-	line-height: 100px;
+	line-height: 66px;
 }
 .top-bar .logo img {
 	display: inline-block;

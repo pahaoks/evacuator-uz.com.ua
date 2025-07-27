@@ -30,7 +30,7 @@ export default defineNuxtConfig({
                 { rel: 'preload', as: 'image', href: '/img/super.jpg' },
                 { rel: 'stylesheet', href: '/css/normalize.css' },
                 { rel: 'stylesheet', href: '/css/foundation.min.css' },
-                { rel: 'stylesheet', href: '/css/style.css' },
+                { rel: 'stylesheet', href: '/css/style-v2.css' },
                 { rel: 'stylesheet', href: '/css/ie.css' },
                 { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' },
                 { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700' },

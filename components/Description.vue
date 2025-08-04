@@ -103,9 +103,9 @@ ua:
   good_and_cheap: якісно і недорого
   tow_truck_services: 'Послуги евакуатора в'
   contact_header: 'Послуги евакуатора в Європі'
-  tow_truck_sgtrans: 'Евакуатор SGTRANS'
+  tow_truck_sgtrans: 'Евакуатор SVItransporter'
   give_services: 'надає наступні послуги евакуатора за адекватну ціну:'
-  contact_services: 'Евакуатор SGTRANS (!!!city!!!) надає наступні послуги евакуатора за
+  contact_services: 'Евакуатор SVItransporter (!!!city!!!) надає наступні послуги евакуатора за
           адекватну ціну:'
   contact_around_the_clock: 'виклик евакуатора на місце поломки цілодобово'
   contact_transportation: 'транспортування автомобіля замовника в указане місце'
@@ -126,7 +126,7 @@ ua:
           складності маршруту, погодних умов та відстані транспортування.
           Страхування вантажу!'
   contact_item_14: 'Евакуатори служби
-          "SGTRANS" перевезуть Ваш автомобіль у будь яке місто Європи.
+          "SVItransporter" перевезуть Ваш автомобіль у будь яке місто Європи.
           Наші фахівці нададуть кваліфіковану юридичну допомогу при перетині
           кордону та досконало розмовляють англійською, адекватна ціна на
           послуги евакуатора.'
@@ -143,9 +143,9 @@ ru:
   good_and_cheap: качественно и недорого
   tow_truck_services: 'Услуги эвакуатора в'
   contact_header: 'Услуги эвакуатора в Европе'
-  tow_truck_sgtrans: 'Эвакуатор SGTRANS'
+  tow_truck_sgtrans: 'Эвакуатор SVItransporter'
   give_services: 'предоставляет следующие услуги эвакуатора за адекватную цену:'
-  contact_services: 'Эвакуатор SGTRANS (!!!city!!!) предоставляет следующие услуги
+  contact_services: 'Эвакуатор SVItransporter (!!!city!!!) предоставляет следующие услуги
           эвакуатора за адекватную цену:'
   contact_around_the_clock: 'вызов эвакуатора на место поломки круглосуточно'
   contact_transportation: 'транспортировка автомобиля заказчика в указанное место'
@@ -166,7 +166,7 @@ ru:
           сложности маршрута, погодных условий и расстояния транспортировки.
           Страхование груза!'
   contact_item_14: 'Эвакуаторы службы
-          "SGTRANS" перевезут Ваш автомобиль в любой город Европы.
+          "SVItransporter" перевезут Ваш автомобиль в любой город Европы.
           Наши специалисты окажут квалифицированную юридическую помощь при
           пересечении границы и отлично говорят по-английски, адекватная цена
           на услуги эвакуатора.'
@@ -183,9 +183,9 @@ en:
   good_and_cheap: good and inexpensive
   tow_truck_services: 'Tow truck services in'
   contact_header: 'Tow truck services in Europe'
-  contact_services: 'Tow truck SGTRANS (!!!city!!!) provides the following evacuation services
+  contact_services: 'Tow truck SVItransporter (!!!city!!!) provides the following evacuation services
           at an adequate price:'
-  tow_truck_sgtrans: 'Tow truck SGTRANS'
+  tow_truck_sgtrans: 'Tow truck SVItransporter'
   give_services: 'provides the following evacuation services at an adequate price:'
   contact_around_the_clock: 'call a tow truck to the place of breakdown around the clock'
   contact_transportation: 'transportation of the customer`s car to the specified place'
@@ -206,7 +206,7 @@ en:
           the complexity of the route, weather conditions and distance of transportation.
           Cargo insurance!'
   contact_item_14: 'Tow trucks of the service
-          "SGTRANS" will transport your car to any city in Europe.
+          "SVItransporter" will transport your car to any city in Europe.
           Our specialists will provide qualified legal assistance when
           crossing the border and speak English well, adequate price
           for tow truck services.'

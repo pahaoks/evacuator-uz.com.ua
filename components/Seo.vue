@@ -100,7 +100,7 @@ const localizedBodyWithCities = t('localizedBodyWithCities')
       Якщо, з тої чи іншої причини, неприємність таки сталася — важливо, якщо є можливість, 
       самостійно прибрати машину з проїзної частини — це забезпечить безпеку іншим учасникам руху і запобігатиме утворенню корки. 
       В іншому випадку, коли власними силами відігнати автомобіль не виходить — потрібно викликати евакуатор. 
-      Професійно з цим впорається компанія «SGTrans».
+      Професійно з цим впорається компанія «SVItransporter».
     situationsTitle: В яких ситуаціях може знадобитися евакуатор
     situationsBody: |
       Як було зазначено вище, основними причинами, через які доводиться скористатися послугами евакуації є 
@@ -140,7 +140,7 @@ const localizedBodyWithCities = t('localizedBodyWithCities')
       If, for one reason or another, an unpleasant situation has occurred, it is important, if possible, to independently
       remove the car from the roadway — this will ensure the safety of other road users and prevent traffic jams.
       Otherwise, when it is impossible to drive the car away on your own — you need to call a tow truck.
-      The company "SGTrans" will cope with this professionally.
+      The company "SVItransporter" will cope with this professionally.
     situationsTitle: In what situations you may need a tow truck
     situationsBody: |
       As mentioned above, the main reasons for using towing services are serious car malfunctions or accidents. 
@@ -179,7 +179,7 @@ const localizedBodyWithCities = t('localizedBodyWithCities')
       Если по той или иной причине неприятность все-таки случилась — важно, если есть возможность,
       самостоятельно убрать машину с проезжей части — это обеспечит безопасность другим участникам движения и предотвратит пробку.
       В противном случае, когда собственными силами отогнать автомобиль не получается — нужно вызвать эвакуатор.
-      Профессионально с этим справится компания «SGTrans».
+      Профессионально с этим справится компания «SVItransporter».
     situationsTitle: В каких ситуациях может понадобиться эвакуатор
     situationsBody: |
       Как было отмечено выше, основными причинами, из-за которых приходится воспользоваться услугами эвакуации, 

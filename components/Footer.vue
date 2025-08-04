@@ -3,7 +3,7 @@
     <div class="row">
       <div class="large-6 columns">
         <ul class="inline-list" style="font-size: 20px; margin-top: 2px !important">
-          <li class="copyright">{{ new Date().getFullYear() }} &copy; SGtrans</li>
+          <li class="copyright">{{ new Date().getFullYear() }} &copy; SVItransporter</li>
         </ul>
       </div>
     </div>

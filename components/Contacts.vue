@@ -18,7 +18,7 @@
 
         <a class="contact-link" href="tel:+421918123753">
           <i class="contact-icon contact-icon_shrink contact-icon--phone"></i>
-          <span>+42(191)-812-37-53</span>
+          <span>+421918123753</span>
         </a>
 
         <a class="contact-link" href="https://www.instagram.com/svi_transporter">
